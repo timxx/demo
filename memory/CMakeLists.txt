@@ -141,3 +141,5 @@ if (NOT ENABLE_ASAN AND NOT ENABLE_TSAN AND NOT ENABLE_MSAN)
 	target_link_libraries(HeapProfiler
 		tcmalloc)
 endif()
+
+add_subdirectory(odr)
